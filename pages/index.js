@@ -1,27 +1,40 @@
 import Image from "next/image";
-import data from '../data.json'
+import data from "../data.json";
 import { Inter } from "next/font/google";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
-  return <main className="">
-    <div className="bg-gray-100 h-80">
-      <input type="text" placeholder="search.." className="border border-gray-300 rounded-lg p-2  ">
-      </input>
-    </div>
-   <div className="flex flex-col gap-4 justify-center items-center h-screen m-5">
-   {data.map((item) => (
+  return (
+    <main className="">
+      <div class="grid place-items-center bg-green-300 p-28 rounded-b-3xl">
+        <h2 className="text-5xl font-bold mb-7">How can we help you?</h2>
+        <input
+          type="text"
+          placeholder="Search"
+          className="border border-gray-300 rounded-lg p-2 w-1/2"
+          autoFocus
+        ></input>
+      </div>
+      <div className="flex flex-col gap-4 justify-center items-center my-10">
+        {data.map((item) => (
           <div key={item.id}>
-            <button className="bg-blue-800 hover:bg-blue-500 text-white font-bold py-2 px-4 rounded-lg">
-            <h1 className="m-1">{item.name}</h1>
-            <div className="flex flex-row p-2">
-            <p className="p-5">{item.desc}</p>
-            <div className="h-20 w-20"><img src={item.img}/></div>
-            </div>
+            <button className="bg-blue-400 hover:bg-blue-500 text-white font-bold py-2 px-4 rounded-lg">
+              <a href={"/" + item.name.toLowerCase()}>
+                <div className="flex flex-row">
+                  <div className="flex flex-col p-2 px-5">
+                    <h1 className="m-1 text-3xl">{item.name}</h1>
+                    <p className="m-3">{item.desc}</p>
+                  </div>
+                  <div className="w-40 max-w-fit max-h-fit">
+                    <img src={item.img} className="rounded-lg" />
+                  </div>
+                </div>
+              </a>
             </button>
           </div>
         ))}
-   </div>
-  </main>;
+      </div>
+    </main>
+  );
 }

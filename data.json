@@ -1,24 +1,103 @@
 [{
     "name":"Cleaning",
     "desc": "We will clean your house.",
-    "price": 200,
-    "img": "https://wdy.h-cdn.co/assets/16/13/4000x2666/gallery-1459452050-gettyimages-122619539.jpg"
+    "img": "https://wdy.h-cdn.co/assets/16/13/4000x2666/gallery-1459452050-gettyimages-122619539.jpg",
+    "categories": [{
+        "name": "Carpet",
+         "desc": "Lorem ipsum dolor sit amet, ",
+         "price": 200
+    },
+    {
+        "name": "Car",
+        "desc": "Lorem ipsum dolor sit amet, ",
+        "price": 200
+    },
+    {
+        "name": "Window",
+        "desc": "description of this is here hahah ok description ",
+        "price": 200
+        
+    },
+    {
+        "name": "Car",
+        "desc": "description of this is here hahah ok description ",
+        "price": 200
+    }]
 },
 {
     "name":"Reparing",
     "desc": "We will clean your house.",
-    "price": 200,
-    "img": "https://wdy.h-cdn.co/assets/16/13/4000x2666/gallery-1459452050-gettyimages-122619539.jpg"
+    "img": "https://wdy.h-cdn.co/assets/16/13/4000x2666/gallery-1459452050-gettyimages-122619539.jpg",
+    "categories": [{
+        "name": "Carpet",
+        "desc": "description of this is here hahah ok description ",
+        "price": 200
+    },
+    {
+        "name": "Car",
+        "desc": "description of this is here hahah ok description ",
+        "price": 200
+    },
+    {
+        "name": "Window",
+        "desc": "description of this is here hahah ok description ",
+        "price": 200
+    },
+    {
+        "name": "Car",
+        "desc": "description of this is here hahah ok description ",
+        "price": 200
+    }]
 },{
     "name":"Painting",
     "desc": "We will clean your house.",
     "price": 200,
-    "img": "https://wdy.h-cdn.co/assets/16/13/4000x2666/gallery-1459452050-gettyimages-122619539.jpg"
+    "img": "https://wdy.h-cdn.co/assets/16/13/4000x2666/gallery-1459452050-gettyimages-122619539.jpg",
+    "categories": [{
+        "name": "Carpet",
+         "desc": "description of this is here hahah ok description ",
+         "price": 200
+    },
+    {
+        "name": "Car",
+        "desc": "description of this is here hahah ok description ",
+        "price": 200
+    },
+    {
+        "name": "Window",
+        "desc": "description of this is here hahah ok description ",
+        "price": 200
+    },
+    {
+        "name": "Car",
+        "desc": "description of this is here hahah ok description ",
+        "price": 200
+    }]
 }
 ,{
     "name":"Labour",
     "desc": "We will clean your house.",
     "price": 200,
-    "img": "https://wdy.h-cdn.co/assets/16/13/4000x2666/gallery-1459452050-gettyimages-122619539.jpg"
+    "img": "https://wdy.h-cdn.co/assets/16/13/4000x2666/gallery-1459452050-gettyimages-122619539.jpg",
+    "categories": [{
+        "name": "Carpet",
+         "desc": "description of this is here hahah ok description ",
+         "price": 200
+    },
+    {
+        "name": "Car",
+        "desc": "description of this is here hahah ok description ",
+        "price": 200
+    },
+    {
+        "name": "Window",
+        "desc": "description of this is here hahah ok description ",
+        "price": 200
+    },
+    {
+        "name": "Car",
+        "desc": "description of this is here hahah ok description ",
+        "price": 200
+    }]
 }
 ]
