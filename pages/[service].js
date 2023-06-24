@@ -53,8 +53,12 @@ export default function Service() {
           {serviceData.categories.map((category) => (
             <li className="p-2" key={category.name}>
               <div className=" h-64 w-64 text-lg bg-slate-100 shadow-md m-4 rounded-lg p-4 max-w-md mx-auto relative">
-                <h3 className="text-2xl font-semibold text-center mb-4">{category.name}</h3>
-                <p className=" justify-center text-black text-opacity-70 mb-4">{category.desc}</p>
+                <h3 className="text-2xl font-semibold text-center mb-4">
+                  {category.name}
+                </h3>
+                <p className=" justify-center text-black text-opacity-70 mb-4">
+                  {category.desc}
+                </p>
                 <h3 className="font-bold text-right">₹{category.price}</h3>
                 <button
                   className="absolute bottom-4 right-4 px-4 py-2 bg-green-400 hover:bg-green-300 text-white rounded-lg "
