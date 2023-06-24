@@ -1,102 +1,102 @@
 [{
     "name":"Cleaning",
-    "desc": "We will clean your house.",
+    "desc": "We will clean your house in just minutes!",
     "img": "https://wdy.h-cdn.co/assets/16/13/4000x2666/gallery-1459452050-gettyimages-122619539.jpg",
     "categories": [{
         "name": "Carpet",
-         "desc": "Lorem ipsum dolor sit amet, ",
+         "desc": "Get your carpets to look brand new.",
          "price": 200
     },
     {
-        "name": "Car",
-        "desc": "Lorem ipsum dolor sit amet, ",
-        "price": 200
+        "name": "Furniture",
+        "desc": "Dust, wash etc all in your favour.",
+        "price": 1000
     },
     {
-        "name": "Window",
-        "desc": "description of this is here hahah ok description ",
+        "name": "Interior",
+        "desc": "Windows, Doors, curtains etc we got you.",
         "price": 200
         
     },
     {
-        "name": "Car",
-        "desc": "description of this is here hahah ok description ",
+        "name": "Exterior",
+        "desc": "Clean the outside of your homes is easier than ever.",
         "price": 200
     }]
 },
 {
     "name":"Reparing",
-    "desc": "We will clean your house.",
-    "img": "https://wdy.h-cdn.co/assets/16/13/4000x2666/gallery-1459452050-gettyimages-122619539.jpg",
+    "desc": "Get your repair works done in just minutes!",
+    "img": "https://smartguy.com/webservice/storage/category/appliances-major-service-repair.jpg",
     "categories": [{
-        "name": "Carpet",
-        "desc": "description of this is here hahah ok description ",
+        "name": "Appliances",
+        "desc": "TV, phones, refrigerator, washing machines etc.",
         "price": 200
     },
     {
-        "name": "Car",
-        "desc": "description of this is here hahah ok description ",
+        "name": "Plumbing",
+        "desc": "Pipes, taps, clogged sinks, pools etc.",
         "price": 200
     },
     {
-        "name": "Window",
-        "desc": "description of this is here hahah ok description ",
+        "name": "Furniture",
+        "desc": "Chairs, sofas, tables etc.",
         "price": 200
     },
     {
-        "name": "Car",
-        "desc": "description of this is here hahah ok description ",
+        "name": "Vehicles",
+        "desc": "Cars, scooters, engines etc.",
         "price": 200
     }]
 },{
     "name":"Painting",
-    "desc": "We will clean your house.",
+    "desc": "Try out all those new colours in just minutes!",
     "price": 200,
-    "img": "https://wdy.h-cdn.co/assets/16/13/4000x2666/gallery-1459452050-gettyimages-122619539.jpg",
+    "img": "https://living.geico.com/wp-content/uploads/GEICOMore_DIYHousePainting_RF_172780332_600x400.jpg",
     "categories": [{
-        "name": "Carpet",
-         "desc": "description of this is here hahah ok description ",
+        "name": "Walls",
+         "desc": "Wallpapers, just paint, so much more.",
          "price": 200
     },
     {
-        "name": "Car",
-        "desc": "description of this is here hahah ok description ",
+        "name": "Roofs",
+        "desc": "Painting up there, we got you.",
         "price": 200
     },
     {
-        "name": "Window",
-        "desc": "description of this is here hahah ok description ",
+        "name": "Details",
+        "desc": "Those small details done in just small time.",
         "price": 200
     },
     {
-        "name": "Car",
-        "desc": "description of this is here hahah ok description ",
+        "name": "Exterior",
+        "desc": "Walls, floors, gates, railings etc.",
         "price": 200
     }]
 }
 ,{
     "name":"Labour",
-    "desc": "We will clean your house.",
+    "desc": "You want help? We'll be there anytime anywhere!",
     "price": 200,
-    "img": "https://wdy.h-cdn.co/assets/16/13/4000x2666/gallery-1459452050-gettyimages-122619539.jpg",
+    "img": "https://www.offthegridnews.com/wp-content/uploads/2013/11/home-repair-400x266.jpg",
     "categories": [{
-        "name": "Carpet",
-         "desc": "description of this is here hahah ok description ",
-         "price": 200
+        "name": "Assemble",
+         "desc": "Assemble furniture, decor, rooms etc.",
+         "price": 500
     },
     {
-        "name": "Car",
-        "desc": "description of this is here hahah ok description ",
+        "name": "Garden",
+        "desc": "Grasses, bushes, trees, flowers etc.",
         "price": 200
     },
     {
-        "name": "Window",
-        "desc": "description of this is here hahah ok description ",
-        "price": 200
+        "name": "Tools",
+        "desc": "Electrical works, lights, circuits etc.",
+        "price": 100
     },
     {
-        "name": "Car",
-        "desc": "description of this is here hahah ok description ",
+        "name": "Move",
+        "desc": "Heavy items, boxes, furniture etc.",
         "price": 200
     }]
 }
